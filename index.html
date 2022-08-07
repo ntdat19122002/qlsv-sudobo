@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <table class="input">
+            <tr>
+                <td><span">Mã sinh viên</span></td>
+                <td><input id="msv" type="text" ></td>
+            </tr>
+            <tr>
+                <td><span>Họ và tên</span></td>
+                <td><input id="ht" type="text" ></td>
+            </tr>
+            <tr>
+                <td><span>Ngày sinh</span></td>
+                <td><input id="ns" type="date" ></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button onclick="addSv()">Add</button>
+                    <button onclick="updateSv()">Update</button>
+                </td>
+            </tr>
+        </table>
+        <table id="list">
+            <tr>
+                <th >Mã sinh viên</th>
+                <th >Họ và tên</th>
+                <th >Ngày sinh</th>
+                <th>Xử lý</th>
+            </tr>
+        </table>
+    </div>
+        
+
+    <script src="index2.js"></script>
+</body>
+</html>
